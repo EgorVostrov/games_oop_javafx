@@ -9,6 +9,7 @@ public class Win {
         }
         return false;
     }
+
     public static boolean monoHorizontal(int[][] board, int row) {
         boolean result = true;
         for (int i = 0; i < board[row].length; i++) {
